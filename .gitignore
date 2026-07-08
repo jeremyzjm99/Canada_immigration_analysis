@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+.venv/
+
+# Raw/processed data (large government files - don't commit)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Environment/secrets
+.env
+
+# OS/editor
+.DS_Store
+Thumbs.db
